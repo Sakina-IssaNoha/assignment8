@@ -1,9 +1,12 @@
 fun main(){
 oddNumbers()
+    var y = names(arrayOf("Sakina","Asiya","Sammy","Christabel"))
+    println(y)
     serving(3)
     serving(12)
     serving(22)
     Numbers()
+
 }
 
 fun oddNumbers(){
@@ -14,13 +17,14 @@ fun oddNumbers(){
  }
 
 fun names(name:Array<String>):Int{
-var x = 0
+var nam = 0
     name.forEach { z->
 if (z.length>5 ){
+    nam++
 
 }
     }
-    return x
+    return nam
 }
 
 fun serving(age:Int){
